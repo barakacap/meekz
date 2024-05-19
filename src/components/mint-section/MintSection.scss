@@ -102,10 +102,10 @@ $border-color: #ffc76e;
     width: 65px;
     transition: color 0.2s ease-in-out,background-color 0.2s ease-in-out,border-color 0.2s ease-in-out,box-shadow 0.2s ease-in-out;
 
-    &:hover {
-        background-color: #0dcdcb;
-        border-color: #0dcdcb;
-    }
+    // &:hover {
+    //     background-color: white;
+    //     color:black !important;
+    // }
     // transition: opacity 150ms ease-in;
 }
 
@@ -123,11 +123,10 @@ $border-color: #ffc76e;
     height: 69px !important;
     font-family: "Urbanist", "sans-serif" !important;
     transition: color 0.2s ease-in-out,background-color 0.2s ease-in-out,border-color 0.2s ease-in-out,box-shadow 0.2s ease-in-out !important;
-
+    color:black !important;
     &:hover {
         opacity: 1 !important;
-        background-color: #0dcdcb !important;
-        border-color: #0dcdcb !important;
+       
     }
 }
 
