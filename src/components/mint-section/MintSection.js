@@ -366,8 +366,9 @@ function MintSection() {
               </button>
               :
               <CrossmintPayButton
-                collectionId="25ce3caf-370b-4465-add3-8d1ec7c0ce5e"
-                projectId="d5a04c53-feff-4b70-8e08-6c34dd714b9a"
+                collectionId="44f1c075-796d-471c-9d1c-d47516f8cb0e"
+
+                projectId="735b85b7-500a-463e-825c-41958c76b058"
                 mintConfig={{ "totalPrice": initPrice }}
                 // environment='staging'
                 style={{ fsFamily: 'Orbitron' }}
