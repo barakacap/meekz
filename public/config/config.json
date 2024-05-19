@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x3699727DF54fDB07F25BAaDd902e843a8c3d4FD1",
+  "TEST_ADDRESS": "0x5b8Fed6E02Fd769f0b4EcA8E19fBa9dB33a60e06",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID":1
+  },
+  "NFT_NAME": "NFT Now",
+  "SYMBOL": "KD",
+  "MAX_SUPPLY": 8888,
+  "WEI_COST": 50000000000000000,
+  "DISPLAY_COST": 0.035,
+  "GAS_LIMIT": 120000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "SHOW_BACKGROUND": true
+}

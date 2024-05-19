@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+$light-green: #AFFF00;
+$dark-gray: #181818;
+$gray: #1E1E1E;
+$light-gray: #4B4B4B;
+
+.App {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-tap-highlight-color: transparent;
+
+  animation: animation2 55s linear infinite;
+}
+
+.app-bg{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top:0;
+  z-index: 0;
+  background-image: url(./assets/images/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+}
+
+// @media screen and (max-width:600px) {
+
+//   .app-bg {
+//     background-position: center;
+//     background-image: url(./assets/images/bg2.webp);
+//     background-size: auto;
+//     opacity: 0.42;
+//   }
+
+// }
+
+.ffam-orb {
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+.ffam-urbanist {
+  font-family: 'Urbanist', sans-serif;
+}
+
+//////\\\\\\
+//font-size
+//////\\\\\\
+.fs-xl {
+  font-size: 5rem;
+}
+
+.fs-xlm {
+  font-size: 4rem;
+}
+
+.fs-xls {
+  font-size: 3.5rem;
+}
+
+.fs-l {
+  font-size: 3rem;
+}
+
+.fs-m {
+  font-size: 1.7rem
+}
+
+.fs-s {
+  font-size: 1.2rem;
+  text-transform:uppercase;
+}
+
+.fs-xs {
+  font-size: 1rem;
+}
+
+.fs-xxs {
+  font-size: 0.7rem;
+}
+
+
+//////\\\\\\
+//font-color
+//////\\\\\\
+.fc-white {
+  color: #FFFFFF;
+}
+
+.fc-black {
+  color: #000;
+}
+
+.fc-gray {
+  color: #262626;
+}
+
+.fc-l-gray {
+  color: #282828;
+}
+
+
+//////\\\\\\
+//font-weight
+//////\\\\\\
+.fw-black {
+  font-weight: 900;
+}
+
+.fw-extra-bold {
+  font-weight: 800;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-semi-bold {
+  font-weight: 600;
+}
+
+.fw-med {
+  font-weight: 500;
+}
+
+.fw-reg {
+  font-weight: 400;
+}
+
+.fw-light {
+  font-weight: 300;
+}

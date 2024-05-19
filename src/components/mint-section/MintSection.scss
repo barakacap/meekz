@@ -1,0 +1,172 @@
+$white: #ffffff;
+$gray: #1F1F1F;
+$light-green: #AFFF00;
+
+$button-color: #ffdf88;
+$border-color: #ffc76e;
+
+.MintSection {
+    position: relative;
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.mint-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    // background-color: green;
+}
+
+.warrior-img {
+    height: 100vh;
+}
+
+// @media screen and (max-width:calc(100vh * 1.5)) {
+//     .mint-inner {
+//         justify-content: center;
+//     }
+    
+//     .warrior-img{
+//         position: fixed;
+//         bottom: 0;
+//         left: 0;
+//         height: 40vw;
+//     }
+// }
+
+.mint-section-logo {
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.mint-info {
+    margin-bottom: 20px;
+}
+
+.mint-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 640px;
+    border: 3px solid transparent !important;
+   
+    margin: auto;
+    p {
+        max-width: 60%;
+    }
+
+    max-width: 93vw;
+    z-index: 2;
+}
+
+.mint-section-inner-bottom {
+
+    box-sizing: border-box;
+    width: 100%;
+    // background-color: red;
+    width: 295px;
+    margin-top: 2rem;
+}
+
+.mint-input-div,
+.mint-amount-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+
+    input {
+        height: 65px;
+        width: 53%;
+      
+        background-color: transparent;
+        text-align: center;
+        outline: none;
+    }
+}
+
+.mint-amount-div {
+    margin-top: 1.3rem;
+}
+
+.amount-button,
+.mint-button {
+    border:6px solid white;
+    height: 69px;
+    width: 65px;
+    transition: color 0.2s ease-in-out,background-color 0.2s ease-in-out,border-color 0.2s ease-in-out,box-shadow 0.2s ease-in-out;
+
+    &:hover {
+        background-color: #0dcdcb;
+        border-color: #0dcdcb;
+    }
+    // transition: opacity 150ms ease-in;
+}
+
+.mint-button {
+    width: 295px;
+    margin-top: 19px;
+}
+
+.mint-section-crossmint-btn {
+    width: 295px;
+    margin-top: 10px;
+    border-radius: 0px !important;
+    border:6px solid white !important;
+    background: transparent !important;
+    height: 69px !important;
+    font-family: "Urbanist", "sans-serif" !important;
+    transition: color 0.2s ease-in-out,background-color 0.2s ease-in-out,border-color 0.2s ease-in-out,box-shadow 0.2s ease-in-out !important;
+
+    &:hover {
+        opacity: 1 !important;
+        background-color: #0dcdcb !important;
+        border-color: #0dcdcb !important;
+    }
+}
+
+.connected-address {
+    position: absolute;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+}
+
+
+// @media screen and (max-width:500px) {
+//     .mint-section-inner-bottom {
+//         padding: 0 6vw 0px 6vw;
+//         box-sizing: border-box;
+//         width: 100%;
+//     }
+// }
+
+// @media screen and (max-width:430px) {
+
+//     // .amount-button,
+//     // .mint-button {
+//     //     height: 14.5vw;
+//     //     width: 18vw;
+//     // }
+
+//     .mint-input-div,
+//     .mint-amount-div {
+//         height: 13.5vw;
+
+//         input {
+//             height: 100%;
+//         }
+//     }
+
+//     .mint-button {
+//         width: 100%;
+//     }
+// }

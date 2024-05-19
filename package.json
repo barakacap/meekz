@@ -1,0 +1,57 @@
+{
+  "name": "nova-dox",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^3.6.6",
+    "@crossmint/client-sdk-react-ui": "^1.1.2-alpha.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@moonpay/moonpay-js": "^0.4.1",
+    "@moonpay/moonpay-react": "^1.5.3",
+    "@mui/material": "^5.12.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "ethers": "5.7.2",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.3.11",
+    "randomstring": "^1.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.3",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^9.1.2",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.62.0",
+    "uuidv4": "^6.2.13",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
